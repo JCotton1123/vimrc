@@ -18,5 +18,9 @@ set nohlsearch
 
 " Highlight text exceeding the 80 
 " character line limit
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+highlight OverLength ctermbg=grey ctermfg=white guibg=#FF4D4D
 match OverLength /\%81v.*/
+
+" Mappings for different spacings
+map <F1> :set shiftwidth=4 tabstop=4 softtabstop=4<CR>
+map <F2> :set shiftwidth=2 tabstop=2 softtabstop=2<CR>
