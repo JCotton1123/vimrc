@@ -2,6 +2,9 @@
 set backspace=indent,eol,start
 set visualbell
 syntax on
+if &diff
+  syntax off
+endif
 
 " Identation
 "set autoindent
